@@ -1,5 +1,8 @@
 # Mentora AI 🚀
 
+🌐 **Live Demo:** https://mentora-ai-4hv5.vercel.app
+
+An AI-powered career platform...
 An AI-powered career platform designed to help professionals and students land their dream jobs faster.
 
 ## Features
