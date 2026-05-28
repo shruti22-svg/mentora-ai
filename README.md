@@ -1,20 +1,35 @@
-# Full Stack AI Career Coach with Next JS, Neon DB, Tailwind, Prisma, Inngest, Shadcn UI Tutorial 🔥🔥
-## https://youtu.be/UbXpRv5ApKA
+# Mentora AI 🚀
 
-![sensai](https://github.com/user-attachments/assets/eee79242-4056-4d19-b655-2873788979e1)
+An AI-powered career platform designed to help professionals and students land their dream jobs faster.
 
-### Make sure to create a `.env` file with following variables -
+## Features
 
+- 🤖 **AI Resume Builder** — Create ATS-friendly resumes with real-time preview
+- ✉️ **Cover Letter Generator** — Generate tailored cover letters using Gemini AI
+- 🎤 **Mock Interview Prep** — Practice with AI-generated industry-specific questions
+- 📊 **Industry Insights Dashboard** — Real-time salary trends and market data
+- 🔒 **Secure Authentication** — Powered by Clerk
+
+## Tech Stack
+
+- **Frontend:** Next.js 15, Tailwind CSS, Shadcn UI
+- **Backend:** Next.js API Routes, Prisma ORM
+- **Database:** PostgreSQL (Neon DB)
+- **AI:** Google Gemini API
+- **Auth:** Clerk
+- **Background Jobs:** Inngest
+
+## Getting Started
+
+```bash
+git clone https://github.com/shruti22-svg/mentora-ai.git
+cd mentora-ai
+npm install
+npm run dev
 ```
-DATABASE_URL=
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
+## Environment Variables
+Add `.env.local` with your API keys for Clerk, Gemini, Neon DB and Inngest.
 
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
-
-GEMINI_API_KEY=
-```
+---
+Built with ❤️ by ShrutiVerse
